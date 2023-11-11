@@ -1,0 +1,17 @@
+{
+    "cSpell.words": [
+        "noopener",
+        "noreferrer",
+        "signpage",
+        "tailwindcss"
+    ],
+    "workbench.activityBar.location": "top",
+    "workbench.activityBar.iconClickBehavior": "focus",
+    "workbench.sideBar.location": "left",
+    "workbench.editor.centeredLayoutFixedWidth": false,
+    "workbench.editor.defaultBinaryEditor": "default",
+    "workbench.editor.enablePreviewFromQuickOpen": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.navigationScope": "editor",
+    "workbench.editor.wrapTabs": true
+}

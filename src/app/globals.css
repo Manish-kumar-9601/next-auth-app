@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+ --primary:#1B262C;
+ --secondary:#0F4C75;
+ --third:#3282B8;
+ --fourth:#BBE1FA;
+ --sign:#5dbea3;
+ --font:rgb(255, 254, 254);
+
+
+
+}
+
+.primary-color{
+
+  background: var(--primary);
+}
+.secondary-color{
+  background: var(--secondary);
+}
+.third-color{
+  background:var(--third);
+}
+.fourth-color{
+background: var(--fourth);
+
+}
+.sign-in-color{
+background-color: var(--sign);
+columns: var(--primary);
+
+}
+
+
+body{
+  background: var(--primary);
+}
