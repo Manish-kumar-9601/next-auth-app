@@ -1,8 +1,9 @@
 "use client";
 import React from "react";
 import { signOut } from "next-auth/react";
-
 import Image from "next/image";
+
+
 
 export const SignOut = () => {
   return (
@@ -22,7 +23,7 @@ export const SignOut = () => {
           />
           <span>
             {" "}
-            <p>Sign In with Google</p>
+            <p>Sign Out with Google</p>
           </span>
         </button>
 
@@ -40,7 +41,7 @@ export const SignOut = () => {
           />
           <span>
           
-            <p>Sign In with github</p>
+            <p>Sign Out with github</p>
           </span>
         </button>
       </div>

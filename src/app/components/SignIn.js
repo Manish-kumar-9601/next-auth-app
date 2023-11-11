@@ -1,10 +1,11 @@
 "use client";
 import React from "react";
+import Image from "next/image";
 import { signIn } from "next-auth/react";
 
-import Image from "next/image";
-
 export const SignIn = () => {
+ 
+
   return (
     <>
       <div className="w-[60%] rounded-[2rem] mt-10 m-auto bg-white   items-center h-[20rem] flex justify-evenly">

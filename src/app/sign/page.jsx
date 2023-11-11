@@ -1,29 +1,22 @@
 "use client" 
-import { SessionProvider } from "next-auth/react"
+import { SessionProvider } from "next-auth/react";
+import AuthSign from "../components/AuthSign";
+ 
 
-import AuthSign from "../components/AuthSign"
+export default function Page() {
 
 
-
-export default function Page(){
-
-return (
+  return (
  
     <SessionProvider>
-
-<AuthSign/>
-
+      <AuthSign />
     </SessionProvider>
+ 
+  );
+}
+
+
+
+
 
  
-
-
-
-
-
-
-
-
-)
-
-}
